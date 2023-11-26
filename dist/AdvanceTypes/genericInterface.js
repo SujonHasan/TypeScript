@@ -12,6 +12,10 @@ const crush3 = {
     husband: {
         name: "rahim",
         salary: 11000
+    },
+    wife: {
+        name: 'kulsum',
+        salary: 2000,
     }
 };
 console.log(crush3);
