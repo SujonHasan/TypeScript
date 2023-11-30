@@ -6,6 +6,10 @@ const createArray = (param) => {
 const createArray1 = (param) => {
     return [param];
 };
+//Normal Function
+function createArray2(param) {
+    return [param];
+}
 const result1 = createArray1("hello Bangladesh");
 const result2 = createArray1(true);
 const result3 = createArray1({ name: "bangladesh" });

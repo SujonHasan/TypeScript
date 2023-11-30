@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only ./dist/AdvanceTypes/genericFunction.js",
+    "start": "ts-node-dev --respawn --transpile-only ./dist/AdvanceTypes/ConstraintsInGenerics.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
