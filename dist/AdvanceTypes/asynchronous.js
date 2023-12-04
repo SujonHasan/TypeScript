@@ -36,7 +36,6 @@ const getPromiseObjectData = () => __awaiter(void 0, void 0, void 0, function* (
     const data = yield makePromiseObject();
     console.log(data);
 });
-// fetch data 
 const getTodo = () => __awaiter(void 0, void 0, void 0, function* () {
     const response = yield fetch('https://jsonplaceholder.typicode.com/posts/1');
     return yield response.json();
